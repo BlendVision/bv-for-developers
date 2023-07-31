@@ -28,6 +28,20 @@ const sidebars = {
     },
   ],
    */
+
+  petstore: [
+    {
+      type: "category",
+      label: "BV One",
+      link: {
+        type: "generated-index",
+        title: "BV One API",
+        description: "BlendVision One API",
+        slug: "/category/bv1-api",
+      },
+      items: require("./docs/api/bv1/sidebar.js"),
+    },
+  ],
 };
 
 module.exports = sidebars;
