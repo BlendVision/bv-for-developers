@@ -154,15 +154,14 @@ const config = {
         docsPluginId: "classic",
         config: {
           bv1Public: {
-            specPath: "openapi/v1.111.1/openapiv2-bv-public.swagger.yaml",
+            specPath: "https://docs.one-dev.kkstream.io/api/bv/v1.111.0/gen/openapi/openapiv2-public.swagger.yaml",
             outputDir: "docs/api/bv1",
             sidebarOptions: {
               groupPathsBy: "tag",
               categoryLinkSource: "tag",
             },
-            version: "v1.111.1",
-            label: "v1.111.1",
-            proxy: "https://api.one-dev.kkstream.io",
+            version: "v1.111.0",
+            label: "v1.111.0",
           },
         }
       },
